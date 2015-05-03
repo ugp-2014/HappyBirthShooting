@@ -40,6 +40,7 @@ public class StageManager : MonoBehaviour {
 	// Use this for initialization
 	void Awake () 
     {
+        Application.targetFrameRate = 30;
         Create();
         IsBonus = false;
 	}
